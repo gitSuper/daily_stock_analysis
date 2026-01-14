@@ -21,7 +21,7 @@ on:
 jobs:
   analyze:
     runs-on: ubuntu-latest
-    
+    environment: .evn
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
